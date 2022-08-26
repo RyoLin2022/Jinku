@@ -1,0 +1,61 @@
+.vault {
+    text-align: center;
+    color: white;
+    font-size: 15px;
+}
+
+.table-Vault {
+    display: flex;
+    flex-direction: column;
+}
+
+.table-bottom {
+    margin-top: 10vh;
+    border: 1px white solid;
+    border-radius: 20px;
+    width: 400px;
+}
+
+
+.table-top {
+    margin-top: -10vh;
+    border: 1px white solid;
+    border-radius: 20px;
+    width: 400px;
+}
+
+@media screen and (max-width: 450px) {
+
+    .table-top {
+        margin-top: -10vh;
+        border: 1px white solid;
+        border-radius: 20px;
+        width: 80vw;
+    }
+    .table-bottom {
+        margin-top: 10vh;
+        border: 1px white solid;
+        border-radius: 20px;
+        width: 80vw;
+    }
+}
+
+.row1,
+.row2,
+.row3 {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.left {
+    flex: 5;
+    text-align: left;
+    margin-left: 10px;
+}
+
+.right {
+    flex: 3;
+    text-align: right;
+    margin-right: 10px;
+}
